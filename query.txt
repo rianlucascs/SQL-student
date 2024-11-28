@@ -1,0 +1,61 @@
+
+========================================================================================================================
+# 1. Instruções de Consulta (DQL - Data Query Language)
+
+SELECT: Realizar consulta para recuperar dados, obter informações no banco de dados
+
+========================================================================================================================
+
+# 2. Instruções de Definição de Dados (DDL - Data Definition Language)
+
+CREATE: Vria novos objetos no banco de dados (tabelas, índices)
+
+ALTER: Modifica estrutura de um objeto (adiciona, exclui ou modifica colunas de uma tabela)
+
+DROP: Exclui um objeto do banco de dados como uma tabela ou índice
+
+TRUNCATE: Remove todos os registros de uma tabela, mas mantém a estrutura da tabela (não gera logs é mais rapido)
+
+========================================================================================================================
+
+# 3. Instruções de Manipulação de Dados (DML - Data Manipulation Language)
+
+INSERT: Adiciona novos registros a uma tabela
+
+UPDATE: Modifica registros existentes em uma tabela
+
+DELETE: Exclui registros de uma tabela
+
+========================================================================================================================
+
+# 4. Instruções de Controle de Transações (TCL - Transaction Control Language)
+
+COMMIT: Confirma uma transação e torna as alterações permantes no banco de dados
+
+ROLLBACK: Desfaz (reverte) uma transação, restaurando o banco de dados ao estado anterior à transação
+
+SAVEPOINT: Defiine um ponto dentro de uma transação onde você pode voltar caso necessário (útil em transações complexas)
+
+RELEASE SAVEPOINT: Remove um ponto de salvamento (savepoint)
+
+========================================================================================================================
+
+# 5. Instruções de Controle de Acesso (DCL - Data Control Language)
+
+GRANT: Concede privilégios de acesso a usuários ou funções
+
+REVOKE: Revoga privilégios de acesso concedidos
+
+========================================================================================================================
+
+# 6. Instruções de Controle de Fluxo
+
+CASE: Expressão condicional retorna um valor dependendo da condição
+
+========================================================================================================================
+
+# 7. Instruções de Controle de Integridade de Dados (Constraints)
+
+
+
+*: "todos os campos" ou "todas as colunas"
